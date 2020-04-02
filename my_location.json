@@ -40,7 +40,7 @@
         {
             "address": "Jl. Veteran, No. 68A, SE Supermarket LT. 2, Dangin Puri Kaja",
             "id": "tempat_latihan",
-            "lat": 8.6499175,
+            "lat": -8.6499175,
             "lng": 115.2154169,
             "name": "Master Gym Veteran",
             "district": "Denpasar Utara",
@@ -76,7 +76,7 @@
         {
             "address": "Jl. Brigjen Ngurah Rai No.36, Kawan, Kec. Bangli, Kabupaten Bangli, Bali 80614",
             "id": "my_school",
-            "lat": 8.4381013,
+            "lat": -8.4381013,
             "lng": 115.3145913,
             "name": "SMA N 1 Bangli",
             "district": "Bangli",
