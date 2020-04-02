@@ -1,0 +1,21 @@
+setelah berhasil melewati tahapan pada tutorial pada pertemuan 7 tugas minggu ini adalah mencoba membuat aplikasi berisi peta dengan marker kita sendiri.
+
+Tugas 1 - file json yang di-host di Internet
+
+1. kita buat json kita sendiri (bisa mencontoh bentuk locations.json)
+
+2. bisa melakukan host file di google drive atau tempat host file gratis lainnya
+
+3. parse file tersebut dan munculkan persis seperti yang kita lakukan di contoh pertemuan 7 tapi  sekarang markernya ada sesuai dengan apa yang ingin anda tampilkan  tapi harus beberapa markernya ya (boleh rumah :p, boleh restaurant, boleh tempat nongkrong, dll)
+
+Tugas 2 - file json tidak di-host dan disimpan dalam asset
+
+lakukan seperti pada tugas 1 tapi json disimpan di asset dalam project (ingat untuk mengubah pubspec.yaml untuk menentukan asset json anda)
+
+yang perlu anda lakukan adalah mengarahkan pembacaan file json di Internet ke pembacaan file json di lokal, contoh kode berikut bisa digunakan :
+
+  String jsonData;
+  jsonData = await rootBundle.loadString('assets/locations.json');
+  return Locations.fromJson(json.decode(jsonData));
+
+karena project ukurannya besar, seperti biasa, yang dikumpulkan ke oase adalah bukti-bukti perjalan pengerjaan project dan hasil akhir (kalau bisa json ditampilkan ya), pada kelas ofline nanti saya akan periksa tugas secara langsung 
